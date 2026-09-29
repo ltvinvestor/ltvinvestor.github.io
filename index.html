@@ -13,8 +13,8 @@
 	<meta property="og:site" content="https://ltvservices.com" /> <!-- website link -->
 	<meta property="og:title" content="LTV Services"/> <!-- title shown in the actual shared post -->
 	<meta property="og:description" content="MSP and Integration Consulting" /> <!-- description shown in the actual shared post -->
-	<meta property="og:image" content="" /> <!-- image link, make sure it's jpg -->
-	<meta property="og:url" content="ltvservices.com" /> <!-- where do you want your post to link to -->
+	<meta property="og:image" content="https://ltvservices.com/assets/images/about.jpg" /> <!-- image link, make sure it's jpg -->
+	<meta property="og:url" content="https://ltvservices.com" /> <!-- where do you want your post to link to -->
 	<meta name="twitter:card" content="summary_large_image"> <!-- to have large image post format in Twitter -->
 
     <!-- Webpage Title -->
@@ -38,10 +38,7 @@
         <div class="container">
 
             <!-- Image Logo -->
-            <!-- <a class="navbar-brand logo-image" href="index.html"><img src="/assets/images/ltv-services-logo.png" alt="LTV Services"></a> -->
-
-            <!-- Text Logo - Use this if you don't have a graphic logo -->
-            <a class="navbar-brand logo-text" href="index.html">LTV Services</a>
+            <a class="navbar-brand logo-image" href="index.html"><img src="./assets/images/ltv-services-logo.png" alt="LTV Services"></a>
 
             <button class="navbar-toggler p-0 border-0" type="button" id="navbarSideCollapse" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -56,8 +53,8 @@
                         <a class="nav-link" href="#about">About</a>
                     </li>
 					<li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" id="dropdown01" data-bs-toggle="dropdown" aria-expanded="false" href="#">Services</a>
-                        <ul class="dropdown-menu" aria-labelledby="dropdown01">
+                        <a class="nav-link dropdown-toggle" id="servicesDropdown" data-bs-toggle="dropdown" aria-expanded="false" href="#">Services</a>
+                        <ul class="dropdown-menu" aria-labelledby="servicesDropdown">
                             <li><a class="dropdown-item" href="https://script.google.com/macros/s/AKfycbyAePo9y5K4m1aoLyEjvSN4a21K_wm1WBILi8L_SSZHCB0kuh0WTsYdgdv27ImExuFx/exec">Receipt Processing</a></li>
                             <li><div class="dropdown-divider"></div></li>
                             <li><a class="dropdown-item" href="https://script.google.com/u/0/home/projects/1ex1WLUvQacT_36uUZZ2FCxqr6Mkah32i6lvHgsS-lf7eA5Yq-02QQTSj">Receipt Project Management</a></li>
@@ -65,12 +62,12 @@
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#plans">Plans</a>
+                        <a class="nav-link" href="#services">Solutions</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" id="dropdown01" data-bs-toggle="dropdown" aria-expanded="false" href="#">Articles</a>
+                        <a class="nav-link dropdown-toggle" id="articlesDropdown" data-bs-toggle="dropdown" aria-expanded="false" href="#">Articles</a>
                         
-                        <ul class="dropdown-menu" aria-labelledby="dropdown01">
+                        <ul class="dropdown-menu" aria-labelledby="articlesDropdown">
                             <li><a class="dropdown-item" href="article.html">Article Details</a></li>
                             <li><div class="dropdown-divider"></div></li>
                             <li><a class="dropdown-item" href="terms.html">Terms Conditions</a></li>
@@ -157,7 +154,7 @@
                     <p class="py-2 para-light">With over 25 years of proven results, trust your solution requirements to LTV Services.</p>
 
                     <div class="my-3">
-                        <a class="btn" href="#your-link">Learn More</a>
+                        <a class="btn" href="#services">Learn More</a>
                     </div>
                 </div>
                 <div class="col-lg-5 text-center py-4 py-sm-0" data-aos="fade-down"> 
@@ -361,110 +358,6 @@
     </section> <!-- end of work -->
 
 
-    <!-- Testimonials (Under Development)
-    <div class="slider-1 testimonial text-light d-flex align-items-center">
-        <div class="container">
-            <div class="row">
-                <div class="text-center w-lg-75 m-auto pb-4">
-                    <p>TESTIMONIALS</p>
-                    <h2 class="py-2">What Our Clients Says</h2>
-                    <p class="para-light">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci esse facilis vel, neque ipsa mollitia impedit, commodi ab illo dignissimos, voluptatum quae amet sed tenetur dolores reprehenderit laudantium quo sint.</p>
-                </div>
-            </div> <!-- end of row -->
-            <div class="row p-2" data-aos="zoom-in">
-                <div class="col-lg-12">
-
-                    <!-- Card Slider -->
-                    <div class="slider-container">
-                        <div class="swiper-container card-slider">
-                            <div class="swiper-wrapper">
-                                
-                                <!-- Slide -->
-                                <div class="swiper-slide">
-                                    <div class="testimonial-card p-4">
-                                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam commodi officia laborum qui iste quidem!</p>
-                                    
-                                        <div class="d-flex pt-4">
-                                            <div>
-                                                <img class="avatar" src="./assets/images/testimonial-1.jpg" alt="testimonial">
-                                            </div>
-                                            <div class="ms-3 pt-2">
-                                                <h6>Marlene Visconte</h6>
-                                                <p>General Manager - Scouter</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div> <!-- end of swiper-slide -->
-                                <!-- end of slide -->
-        
-                                <!-- Slide -->
-                                <div class="swiper-slide">
-                                    <div class="testimonial-card p-4">
-                                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam commodi officia laborum qui iste quidem!</p>
-                                        <div class="d-flex pt-4">
-                                            <div>
-                                                <img class="avatar" src="./assets/images/testimonial-2.jpg" alt="testimonial">
-                                            </div>
-                                            <div class="ms-3 pt-2">
-                                                <h6>John Spiker</h6>
-                                                <p>Team Leader - Vanquish</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div> <!-- end of swiper-slide -->
-                                <!-- end of slide -->
-        
-                                <!-- Slide -->
-                                <div class="swiper-slide">
-                                    <div class="testimonial-card p-4">
-                                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam commodi officia laborum qui iste quidem!</p>
-                                        <div class="d-flex pt-4">
-                                            <div>
-                                                <img class="avatar" src="./assets/images/testimonial-3.jpg" alt="testimonial">
-                                            </div>
-                                            <div class="ms-3 pt-2">
-                                                <h6>Stella Virtuoso</h6>
-                                                <p>Design Chief - Upscale</p>
-                                            </div>
-                                        </div>
-                                    </div>      
-                                </div> <!-- end of swiper-slide -->
-                                <!-- end of slide -->
-        
-                                <!-- Slide -->
-                                <div class="swiper-slide">
-                                    <div class="testimonial-card p-4">
-                                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam commodi officia laborum qui iste quidem!</p>
-                                        <div class="d-flex pt-4">
-                                            <div>
-                                                <img class="avatar" src="./assets/images/testimonial-4.jpg" alt="testimonial">
-                                            </div>
-                                            <div class="ms-3 pt-2">
-                                                <p>Mike tim</p>
-                                                <p>Investor - TechGroww</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div> <!-- end of swiper-slide -->
-                                <!-- end of slide -->
-
-                            </div> <!-- end of swiper-wrapper -->
-        
-                            <!-- Add Arrows -->
-                            <div class="swiper-button-next"></div>
-                            <div class="swiper-button-prev"></div>
-                            <!-- end of add arrows -->
-        
-                        </div> <!-- end of swiper-container -->
-                    </div> <!-- end of slider-container -->
-                    <!-- end of card slider -->
-
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
-        </div> <!-- end of container -->
-    </div> end of testimonials -->
-
-
     <!-- Newsletter -->
     <section class="newsletter text-light py-5">
         <div class="container">
@@ -475,7 +368,7 @@
                 </div>
                 <div class="col-lg-6 d-flex align-items-center" data-aos="fade-down">
                     <div class="input-group my-3">
-                        <input type="text" class="form-control p-2" placeholder="Enter your email address" aria-label="Recipient's email">
+                        <input type="email" class="form-control p-2" placeholder="Enter your email address" aria-label="Recipient's email">
                         <button class="btn-secondary text-light" type="button">Subscribe</button>
                     </div>
                 </div>
@@ -504,7 +397,7 @@
                                 </div>
                                 <div class="col-lg-6">
                                     <div class="form-group py-2">
-                                        <input type="email" class="form-control form-control-input" id="exampleFormControlInput2" placeholder="Enter phone number">
+                                        <input type="tel" class="form-control form-control-input" id="exampleFormControlInput2" placeholder="Enter phone number">
                                     </div>                                 
                                 </div>
                             </div>
@@ -516,7 +409,7 @@
                             </div>                            
                         </div>
                         <div class="my-3">
-                            <a class="btn form-control-submit-button" href="#your-link">Submit</a>
+                            <button class="btn form-control-submit-button" type="button">Submit</button>
                         </div>
                     </div> <!-- end of div -->
                 </div> <!-- end of col -->
@@ -604,15 +497,15 @@
                         </div>
                         <div class="d-flex align-items-center py-2">
                             <i class="fas fa-caret-right"></i>
-                            <a href="#"><p class="ms-3">Services</p></a>
+                            <a href="#services"><p class="ms-3">Services</p></a>
                         </div>
                         <div class="d-flex align-items-center py-2">
                             <i class="fas fa-caret-right"></i>
-                            <a href="#"><p class="ms-3">Plans</p></a>
+                            <a href="#about"><p class="ms-3">Why Us</p></a>
                         </div>
                         <div class="d-flex align-items-center py-2">
                             <i class="fas fa-caret-right"></i>
-                            <a href="#"><p class="ms-3">Contact</p></a>
+                            <a href="#contact"><p class="ms-3">Contact</p></a>
                         </div>
                     </div>
                 </div> <!-- end of col -->
@@ -631,11 +524,11 @@
                         </div>
                         <div class="d-flex align-items-center py-2">
                             <i class="fas fa-caret-right"></i>
-                            <a href="#your-link"><p class="ms-3">Disclaimer</p></a>
+                            <a href="terms.html"><p class="ms-3">Disclaimer</p></a>
                         </div>
                         <div class="d-flex align-items-center py-2">
                             <i class="fas fa-caret-right"></i>
-                            <a href="#your-link"><p class="ms-3">FAQ</p></a>
+                            <a href="article.html"><p class="ms-3">FAQ</p></a>
                         </div>
                     </div>
                 </div> <!-- end of col -->
@@ -647,7 +540,7 @@
                     <p class="py-3 para-light">Stay up to date on the latest industry trends.</p>
                     <div class="d-flex align-items-center">
                         <div class="input-group mb-3">
-                            <input type="text" class="form-control p-2" placeholder="Enter your email address" aria-label="Recipient's email">
+                            <input type="email" class="form-control p-2" placeholder="Enter your email address" aria-label="Recipient's email">
                             <button class="btn-secondary text-light"><i class="fas fa-envelope fa-lg"></i></button>       
                         </div>
                     </div>
