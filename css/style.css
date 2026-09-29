@@ -75,21 +75,25 @@ li {
 .services,
 .work,
 .contact,
-
-
-.about,
-.plans,
-.company,
-.newsletter,
-.location {
-  	background-color: var(--primary-light);
+.footer {
+   	background-color: var(--primary);
 }
 
-.bottom {
-  	background-color: black;
+.footer {
+	color: #ffffff;
 }
 
-/* Gradient Border And Background On Icons */
+.footer p,
+.footer a,
+.footer h4,
+.footer i,
+.footer .para-light {
+	color: #ffffff;
+}
+
+.footer .para-light {
+	opacity: 0.8;
+}
 .home_text,
 .home .fas,
 .plans .far,
@@ -140,10 +144,10 @@ li {
 }
 
 .navbar .logo-image img {
-	width: 170px;
+	width: 220px;
 	height: auto;
 	display: block;
-	max-height: 48px;
+	max-height: 56px;
 	object-fit: contain;
 }
 
